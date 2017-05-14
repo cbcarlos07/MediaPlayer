@@ -7,10 +7,15 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="mediaplayer.cursoandroid.com.mediaplayer.MainActivity">
+    tools:context="mediaplayer.cursoandroid.com.mediaplayer.MainActivity"
+    android:background="#a7d3e3">
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Tocar"
+        android:id="@+id/botaoTocarId"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="122dp" />
 </RelativeLayout>
